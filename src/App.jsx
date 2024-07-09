@@ -24,7 +24,7 @@ function App() {
   console.log(state.products.length);
   return (
     <div className="flex justify-center items-center font-inter">
-      <div className="container drop-shadow-xl pt-12 px-12 w-[800px] h-[900px] bg-[#FFFFFF] mt-6">
+      <div className="container drop-shadow-xl pt-12 px-12 w-[800px] h-[750px] bg-[#FFFFFF] mt-6">
         <h2 className="text-2xl font-semibold">Add Products</h2>
         <div className="input-container flex justify-between items-end gap-2 mt-6">
           <div className="input flex flex-col flex-grow gap-1">
