@@ -21,7 +21,7 @@ function App() {
     dispatch({ type: "DECREASE_QUANTITY", payload: index });
   };
 
-  console.log(state.products.length)
+  console.log(state.products.length);
   return (
     <div className="flex justify-center items-center font-inter">
       <div className="container drop-shadow-xl pt-12 px-12 w-[800px] h-[900px] bg-[#FFFFFF] mt-6">
@@ -52,7 +52,7 @@ function App() {
           </button>
         </div>
         {state.products.length > 0 ? (
-          <div className="mt-4">
+          <div className="mt-4 overflow-auto h-[700px]">
             {state.products.map((product, index) => (
               <div
                 key={index}
