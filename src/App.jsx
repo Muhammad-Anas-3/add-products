@@ -52,7 +52,7 @@ function App() {
           </button>
         </div>
         {state.products.length > 0 ? (
-          <div className="mt-4 overflow-auto h-[700px]">
+          <div className="mt-4 overflow-auto h-[540px]">
             {state.products.map((product, index) => (
               <div
                 key={index}
